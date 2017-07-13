@@ -23,7 +23,7 @@ $ gulp watch
 
 After all this done, just run the project on your local web server and enjoy.
 
-### What was done
+### What I've done
 
 I've used AngularJS for template creation, API integration and for the routing of list and detail screens.
 
