@@ -3,7 +3,7 @@
 .sass-cache/
 node_modules/
 
-# public/styles/main.css
+public/styles/main.css
 
-# public/scripts/all.js
-# public/scripts/vendor.js
+public/scripts/all.js
+public/scripts/vendor.js
