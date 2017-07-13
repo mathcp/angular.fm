@@ -1,0 +1,40 @@
+<header class="opacity">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2">
+
+                <a href="#!/artists/" class="back" title="Back">Back</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xs-offset-3">
+                <img src="public/images/logo-isobar.png" alt="ISOBAR.fm" class="logo">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="artist-detail">
+    <div class="container">
+    	<figure class="cover">
+    		<img ng-src="{{artist.image}}" alt="{{artist.name}}">
+    		<figcaption>
+    			{{artist.name}}
+    		</figcaption>
+    	</figure>        
+        <section class="main-content">
+        	<div class="description">   
+        		<div class="row">   
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+						{{artist.genre}}
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<img ng-src="{{artist.image}}" alt="{{artist.name}}">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+						{{artist.numPlays | number}} plays
+					</div>
+				</div>
+			</div>
+			<p>{{artist.biography}}</p>
+        </section>  
+    </div>
+</main>

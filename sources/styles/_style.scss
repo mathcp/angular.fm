@@ -1,0 +1,165 @@
+$default_text_color: #373737;
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+header {
+    background-color: #f04d22;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+	input[type="text"] {
+		background-color: #ffffff;
+		border: none;
+		box-sizing: border-box;
+		color: $default_text_color;
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		padding: 3px 10px;
+		width: 100%;
+	}
+
+    .logo {
+    	display: block;
+    	margin-top: 2px;
+    	max-height: 20px;
+    	width: auto;	
+    }
+
+    &.opacity {
+    	background-color: rgba(240,77,34,0.7)
+    }
+
+    .back {
+    	background: url("../images/arrow_left.png") no-repeat scroll 0 0 transparent;
+	    display: inline-block;
+	    height: 27px;
+	    text-indent: -9999px;
+	    width: 16px;
+	}
+}
+
+main {
+	background-color: #d8d8d8;
+	padding: 60px 0 15px;
+	
+	figure {
+		margin: 0;
+
+		&.cover {
+			height: 350px;
+			margin-left: -15px;
+			overflow: hidden;
+		    position: relative;
+			width: calc(100% + 30px);
+
+		    img {
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    width: 100%;
+			    transform: translate(-50%, -50%);
+			}
+		}
+	}
+
+	.order-by {
+		margin-bottom: 15px;
+
+		h2 {
+			color: $default_text_color;
+		    font-size: 20px;
+		    margin: 0 0 15px;
+		    text-align: center;
+		    text-transform: uppercase;
+		}
+
+		button {
+		    background-color: #fff;
+		    border: none;
+		    color: $default_text_color;
+		    font-weight: bold;
+		    padding: 15px 5px;
+		    text-transform: uppercase;
+		    width: 100%;
+		}
+	}
+
+	.main-content {
+		background-color: #ffffff;
+		padding: 15px;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			
+			li {
+				border-bottom: 1px solid #d8d8d8;
+				padding-bottom: 15px;
+				padding-top: 15px;
+
+				&:last-child {
+					border-bottom: none;
+					padding-bottom: 0;
+				}
+			}
+
+			a {
+				color: $default_text_color;
+				text-decoration: none;
+
+				figure {
+					align-items: center;
+					display: flex;
+					justify-content: space-between;
+
+					img {
+					    border: 1px solid;
+					    border-radius: 100%;
+					    width: 25%;
+					}
+
+					figcaption {
+					    font-size: 14px;
+					    text-transform: uppercase;
+					    width: 65%;
+
+					    strong {
+						    display: block;
+						}
+					}
+				}
+			}
+		}
+
+		.description {
+			color: $default_text_color;
+			font-weight: 700;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+
+			img {
+				border: 1px solid;
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+				margin-top: -50px;
+			}
+		}
+
+		p {
+			color: $default_text_color;
+			clear: both;
+			font-size: 1rem;
+			line-height: 150%;
+		}
+	}
+
+	&.artist-detail {
+		padding-top: 0;
+	}
+}
