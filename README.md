@@ -1,6 +1,6 @@
 # Isobar Brazil Test
 
-My test to apply for a front-end developer position in Isobar Brazil
+My test to apply for a front-end developer position at Isobar Brazil
 
 Used technolog technologies
 
@@ -30,6 +30,14 @@ I've used AngularJS for template creation, API integration and for the routing o
 For customization I've decided to use Sass to streamline the process and make the code more readable
 
 The task runner I've used was Gulp, that choice was based only on convenience, it could have been Grunt as well.
+
+### URLs
+
+Artists List
+~your_server/index.html#!/artists
+
+Artist detail
+~your_server/index.html#!/artist/id
 
 ### "Issues"
 

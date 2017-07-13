@@ -41,7 +41,7 @@ artistListApp.config(function($routeProvider) {
 		templateUrl: "view/artistList.html",
 		controller: "artistListController"
 	});
-	$routeProvider.when("/artist-detail/:id", {
+	$routeProvider.when("/artist/:id", {
 		templateUrl: "view/artistDetail.html",
 		controller: "artistDetailController"
 	});
