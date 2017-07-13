@@ -11,9 +11,9 @@ Used technolog technologies
 
 ### Installation
 
-To run the project is very simple, you just need to download the dependencies, build the CSS and JS files and access your local URL for the project.
+To run this is very simple, you just need to download the dependencies, build the CSS and JS files and access your local URL for the project.
 
-Before just make sure you have installed the node.js and also the Gulp task runner
+Before it just make sure you have installed the node.js and also the Gulp task runner
 
 ```sh
 $ npm install
@@ -41,4 +41,4 @@ Artist detail
 
 ### "Issues"
 
-I didn't have time to finalize the desktop and tablet versions unfortunately due to commitments with my current job.
+I didn't have time to finalize the desktop and tablet versions unfortunately due commitments with my current job.
